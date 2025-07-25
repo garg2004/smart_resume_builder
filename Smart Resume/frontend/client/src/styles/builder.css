@@ -1,0 +1,99 @@
+/* 🎨 builder.css */
+
+.builder-container {
+  padding: 2rem;
+  max-width: 768px;
+  margin: auto;
+  background: linear-gradient(to bottom right, #f0f9ff, #ffffff);
+  border-radius: 8px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+.builder-heading {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  color: #1e3a8a;
+  margin-bottom: 0.5rem;
+}
+
+.builder-subheading {
+  text-align: center;
+  color: #6b7280;
+  margin-bottom: 1.5rem;
+}
+
+.builder-input {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.03);
+  font-size: 0.95rem;
+  background-color: #fff;
+  color: #111827;
+  transition: 0.3s;
+}
+
+.builder-input:focus {
+  border-color: #2563eb;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(37,99,235,0.2);
+}
+
+.builder-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.builder-button {
+  padding: 0.6rem 1.5rem;
+  font-weight: 500;
+  border-radius: 6px;
+  color: white;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: background-color 0.3s ease;
+}
+
+.builder-button.blue {
+  background-color: #3b82f6;
+}
+
+.builder-button.blue:hover {
+  background-color: #2563eb;
+}
+
+.builder-button.green {
+  background-color: #10b981;
+}
+
+.builder-button.green:hover {
+  background-color: #059669;
+}
+
+.builder-button.purple {
+  background-color: #8b5cf6;
+}
+
+.builder-button.purple:hover {
+  background-color: #7c3aed;
+}
+
+.suggestions-box {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background-color: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  color: #374151;
+}
+
+.suggestions-box h2 {
+  color: #1d4ed8;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}

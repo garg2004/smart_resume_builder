@@ -1,0 +1,90 @@
+/* 🎨 preview.css */
+
+.preview-container {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+  background: linear-gradient(to right, #f0f4ff, #fff);
+  min-height: 100vh;
+}
+
+.preview-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.preview-title {
+  font-size: 1.75rem;
+  font-weight: bold;
+  color: #222;
+}
+
+.download-button {
+  background: #10b981;
+  color: white;
+  padding: 0.5rem 1.2rem;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+.download-button:hover {
+  background: #059669;
+}
+
+.resume-box {
+  background: #ffffff;
+  border-radius: 0.5rem;
+  padding: 2rem;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+}
+
+.resume-header {
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+}
+
+.resume-name {
+  font-size: 2rem;
+  color: #1f2937;
+  font-weight: bold;
+}
+
+.resume-email {
+  color: #6b7280;
+  font-size: 0.9rem;
+}
+
+.resume-link {
+  color: #2563eb;
+  font-size: 0.85rem;
+  text-decoration: none;
+}
+
+.resume-link:hover {
+  text-decoration: underline;
+}
+
+.resume-section {
+  margin-bottom: 1.5rem;
+}
+
+.section-title {
+  font-size: 1.2rem;
+  color: #374151;
+  font-weight: 600;
+  border-bottom: 2px solid #c7d2fe;
+  padding-bottom: 0.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.section-content {
+  font-size: 0.95rem;
+  color: #374151;
+  line-height: 1.6;
+  white-space: pre-wrap;
+}
